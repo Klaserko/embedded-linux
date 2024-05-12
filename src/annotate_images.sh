@@ -1,5 +1,3 @@
-
-
 #!/bin/bash
 
 # Define the path to the folder containing the images
@@ -19,7 +17,7 @@ find "$IMAGE_FOLDER" -type f -name "*.jpg" | while read -r img_file; do
         if ! jq -e '.Annotation' "$metadata_file" >/dev/null; then
             # Run ollama command to annotate the image
             echo "Starting annotation for $img_file"
-            
+
             annotation=$(ollama run llava:7b "In short describe $img_file")
 
             # Update the JSON metadata file with the annotation
