@@ -1,0 +1,13 @@
+{
+  "ExposureTime": "1/32",
+  "SubjectDistance": "0.6666666667 m",
+  "ISO": 200,
+  "FileName": "152218_624.jpg",
+  "Trigger": "Motion",
+  "CreateDate": "2024-05-12 15:22:19",
+  "CreateSecondsEpoch": "1715520139",
+  "Annotation": {
+    "Source": "Ollama:7b",
+    "Test": " The image you provided appears to be a screenshot of a webpage with a title \"EMLI-TEAM-18\" and a URL \"http://192.168.10.1:8080/2024-05-12/152218\\_624.jpg\". The webpage is displaying the image \"152218\\_624.jpg\", which seems to be a photograph of a person sitting in front of a laptop computer. The image shows the person from the waist up, with their hands resting on the keyboard and the screen visible in front of them. The photo's resolution is 3072 x 2048 pixels, indicating that it was taken with a high-resolution camera or display device.\n\nThe webpage itself seems to be part of a larger website or intranet, as evidenced by the domain name \"192.168.10.1:8080\" in the URL, which suggests that the server hosting the website is located on a private network with an IP address of 192.168.10.1 and port number 8080. The subfolder \"2024-05-12\" and the filename \"152218\\_624.jpg\" provide additional information about the image, but it's not clear from this screenshot alone what that information might refer to. "
+  }
+}

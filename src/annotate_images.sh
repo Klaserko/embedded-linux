@@ -5,11 +5,13 @@ IMAGE_FOLDER="$1"
 
 # Find all JPEG files recursively in the IMAGE_FOLDER directory
 find "$IMAGE_FOLDER" -type f -name "*.jpg" | while read -r img_file; do
+    echo "Processing image: $img_file"
     # Extract filename without extension
     filename=$(basename "$img_file" .jpg)
+    dir_name=$(dirname "$img_file")
 
     # JSON metadata file
-    metadata_file="${IMAGE_FOLDER}/${filename}.json"
+    metadata_file="${dir_name}/${filename}.json"
 
     # Check if metadata file exists
     if [ -f "$metadata_file" ]; then
