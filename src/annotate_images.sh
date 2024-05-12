@@ -4,7 +4,7 @@
 IMAGE_FOLDER="$1"
 
 # Find all JPEG files recursively in the IMAGE_FOLDER directory
-find "$IMAGE_FOLDER" -type f -name "*.jpg" | while read -r img_file; do
+for img_file in $(find "$IMAGE_FOLDER" -type f -name "*.jpg"); do 
     echo "Processing image: $img_file"
     # Extract filename without extension
     filename=$(basename "$img_file" .jpg)
@@ -22,8 +22,9 @@ find "$IMAGE_FOLDER" -type f -name "*.jpg" | while read -r img_file; do
 
             param="$img_file"
 
-            annotation=$(ollama run llava:7b "In short describe this image: ${dir_name}/${filename}.jpeg, Do not describe the path, only the image.")
+            annotation=$(ollama run llava:7b "In short describe this image: $img_file, Do not describe the path, only the image.")
 
+            # annotation="hallo"
             # Update the JSON metadata file with the annotation
             jq --arg annotation_text "$annotation" '.Annotation += {"Source": "Ollama:7b", "Test": $annotation_text}' "$metadata_file" > temp.json && mv temp.json "$metadata_file"
 
