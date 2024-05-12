@@ -1,0 +1,71 @@
+{
+  "ExposureTime": "1/17",
+  "SubjectDistance": "0.7751937984 m",
+  "ISO": 221,
+  "FileName": "161352_544.jpg",
+  "Trigger": "Time",
+  "CreateDate": "2024-05-11 16:13:53",
+  "CreateSecondsEpoch": "1715436833",
+  "Dwonloads": [
+    {
+      "DroneID": "1",
+      "Time": "1715436985"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715437176"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715511220"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715511240"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715511270"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715511432"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715511459"
+    }
+  ],
+  "Annotation": {
+    "Source": "Ollama:7b",
+    "Test": " The image appears to be a screenshot of a web browser displaying an HTML page with a title that reads \"EMLI TEAM 18\". The page contains a header with the text \"EMLI\" and a navigation bar with links to different sections of the website.\n\nBelow the navigation bar, there is a main content area with a large image and some text. The image shows a person standing outdoors in a natural setting. There is also a smaller thumbnail image on the left side of the page, which seems to be an older version of the same page.\n\nThe text on the page includes headings, paragraphs, and bullet points, but it's not entirely clear what the content is about due to the resolution of the image. The overall style of the website suggests a clean and modern design with a focus on visual content. "
+  }
+}
+      "Time": "1715514229"
+    }
+  ]
+}
+
+      "DroneID": "1",
+      "Time": "1715514235"
+    }
+  ]
+}
+
+      "DroneID": "1",
+      "Time": "1715514395"
+    }
+  ]
+}
+
+      "DroneID": "1",
+      "Time": "1715514748"
+    }
+  ]
+}
+
+      "DroneID": "1",
+      "Time": "1715514943"
+    }
+  ]
+}

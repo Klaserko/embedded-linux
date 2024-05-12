@@ -1,0 +1,56 @@
+{
+  "ExposureTime": "1/17",
+  "SubjectDistance": "0.8090614887 m",
+  "ISO": 221,
+  "FileName": "161358_836.jpg",
+  "Trigger": "Time",
+  "CreateDate": "2024-05-11 16:13:59",
+  "CreateSecondsEpoch": "1715436839",
+  "Dwonloads": [
+    {
+      "DroneID": "1",
+      "Time": "1715436988"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715437179"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715511222"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715511242"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715511272"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715511434"
+    }
+  ],
+  "Annotation": {
+    "Source": "Ollama:7b",
+    "Test": " The image appears to be a screenshot of a webpage or an application interface. It shows what seems to be a chat application window with the following visible elements:\n\n* A user interface element in the top right corner labeled \"EMLI TEAM.\"\n* The title bar of the main content area which includes a URL address and a port number (192.168.10.1:8080) and the date \"2024-05-11\".\n* A section with a timestamp indicating that it was created at 16:13:58 on May 11th, 2024.\n* An image or icon in the center right area of the window.\n* Text or icons in the bottom left and bottom right corners, which are partially obscured by the browser's window controls (e.g., minimize, maximize, close buttons).\n\nThe style of the interface suggests that it is a graphical user interface with a modern design, likely using HTML, CSS, and JavaScript technologies to create the interactive experience. "
+  }
+}
+ "DroneID": "1",
+      "Time": "1715514882"
+    }
+  ]
+}
+
+      "DroneID": "1",
+      "Time": "1715514892"
+    }
+  ]
+}
+
+      "DroneID": "1",
+      "Time": "1715514946"
+    }
+  ]
+}

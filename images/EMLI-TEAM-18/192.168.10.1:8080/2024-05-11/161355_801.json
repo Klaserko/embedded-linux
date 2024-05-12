@@ -1,0 +1,55 @@
+{
+  "ExposureTime": "1/17",
+  "SubjectDistance": "0.7955449483 m",
+  "ISO": 221,
+  "FileName": "161355_801.jpg",
+  "Trigger": "Time",
+  "CreateDate": "2024-05-11 16:13:56",
+  "CreateSecondsEpoch": "1715436836",
+  "Dwonloads": [
+    {
+      "DroneID": "1",
+      "Time": "1715436986"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715437177"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715511221"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715511241"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715511271"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715511433"
+    }
+  ],
+  "Annotation": {
+    "Source": "Ollama:7b",
+    "Test": " The image is a screenshot of a web page with the following visible elements:\n\n* A navigation bar at the top with a dark background and light text, displaying \"EMLI-TEAM\" on the left and some unreadable icons on the right.\n* Below the navigation bar is a main content area with a white background.\n* Centered in the content area is an image of a person wearing sunglasses, standing outdoors during what appears to be daylight, but without more context it's difficult to provide further details about the person or their surroundings.\n* The image file path, \"2024-05-11/161355_801.jpg\", is visible in the web page address bar at the top of the browser window, indicating that the image is likely hosted on a server with an IP address of 192.168.10.1 and is accessible through port 8080. "
+  }
+}
+e": "1715514777"
+    }
+  ]
+}
+
+      "DroneID": "1",
+      "Time": "1715514785"
+    }
+  ]
+}
+
+      "DroneID": "1",
+      "Time": "1715514945"
+    }
+  ]
+}

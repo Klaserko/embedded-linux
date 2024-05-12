@@ -1,0 +1,78 @@
+{
+  "ExposureTime": "1/17",
+  "SubjectDistance": "0.8257638315 m",
+  "ISO": 221,
+  "FileName": "161348_439.jpg",
+  "Trigger": "Time",
+  "CreateDate": "2024-05-11 16:13:49",
+  "CreateSecondsEpoch": "1715436829",
+  "Dwonloads": [
+    {
+      "DroneID": "1",
+      "Time": "1715436983"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715437175"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715511219"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715511239"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715511269"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715511431"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715511458"
+    }
+  ],
+  "Annotation": {
+    "Source": "Ollama:7b",
+    "Test": " The image is a screenshot of a web interface displaying a table with various pieces of information. At the top of the table, there is a row that includes a column with the title \"Date\" and another column with the title \"Time\". Below this header row, there are multiple rows with data in each cell. The data includes dates and times as well as some other numerical values. The image also contains some text in the upper right corner, which appears to be part of an application or system interface, but it is not clear what the text says due to its small size and resolution. "
+  }
+}
+    "DroneID": "1",
+      "Time": "1715514162"
+    }
+  ]
+}
+
+      "DroneID": "1",
+      "Time": "1715514172"
+    }
+  ]
+}
+
+      "DroneID": "1",
+      "Time": "1715514213"
+    }
+  ]
+}
+
+      "DroneID": "1",
+      "Time": "1715514394"
+    }
+  ]
+}
+
+      "DroneID": "1",
+      "Time": "1715514745"
+    }
+  ]
+}
+
+      "DroneID": "1",
+      "Time": "1715514941"
+    }
+  ]
+}
