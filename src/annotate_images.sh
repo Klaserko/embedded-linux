@@ -28,7 +28,7 @@ find "$IMAGE_FOLDER" -type f -name "*.jpg" | while read -r img_file; do
             echo "Annotation already exists for $img_file"
         fi
     else
-        echo "Metadata file not found for $img_file"
+        echo "Metadata file not found for $metadata_file"
     fi
 done
 
