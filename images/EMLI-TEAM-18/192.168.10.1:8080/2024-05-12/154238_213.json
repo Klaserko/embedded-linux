@@ -11,5 +11,9 @@
       "DroneID": "1",
       "Time": "1715521383"
     }
-  ]
+  ],
+  "Annotation": {
+    "Source": "Ollama:7b",
+    "Test": "hello"
+  }
 }

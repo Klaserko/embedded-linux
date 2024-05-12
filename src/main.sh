@@ -16,7 +16,7 @@ sleep_time=6
 while true; do
     if current_wifi=$("$check_script"); then
         echo "Connected to $current_wifi, starting download"
-        $download_script "../images/$current_wifi"
+        # $download_script "../images/$current_wifi"
 
         echo "Download finished, starting annotation"
         $annotation_script "../images/$current_wifi/$website_dir/"

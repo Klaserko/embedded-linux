@@ -5,5 +5,9 @@
   "FileName": "154454_313.jpg",
   "Trigger": "Motion",
   "CreateDate": "2024-05-12 15:44:55",
-  "CreateSecondsEpoch": "1715521495"
+  "CreateSecondsEpoch": "1715521495",
+  "Annotation": {
+    "Source": "Ollama:7b",
+    "Test": "hello"
+  }
 }
