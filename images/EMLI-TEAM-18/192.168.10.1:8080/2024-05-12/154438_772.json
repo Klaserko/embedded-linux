@@ -8,6 +8,6 @@
   "CreateSecondsEpoch": "1715521480",
   "Annotation": {
     "Source": "Ollama:7b",
-    "Test": "hello"
+    "Test": " The image shows a photograph of an individual taken outdoors in a natural setting with trees and vegetation visible in the background. The person is standing and appears to be dressed casually, wearing shorts and a short-sleeved shirt. There are no texts or distinguishable brands visible in the image. "
   }
 }
