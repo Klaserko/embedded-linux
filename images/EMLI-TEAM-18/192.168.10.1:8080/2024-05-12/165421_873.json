@@ -1,0 +1,13 @@
+{
+  "ExposureTime": "1/33",
+  "SubjectDistance": "0.5793742758 m",
+  "ISO": 200,
+  "FileName": "165421_873.jpg",
+  "Trigger": "Motion",
+  "CreateDate": "2024-05-12 16:54:23",
+  "CreateSecondsEpoch": "1715525663",
+  "Annotation": {
+    "Source": "Ollama:7b",
+    "Test": " The image shows a soccer goalpost in the foreground with a player in motion behind it. The background is blurred but suggests an outdoor setting with natural light. There is no visible text on the image. "
+  }
+}

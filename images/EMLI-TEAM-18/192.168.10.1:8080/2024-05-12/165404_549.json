@@ -1,0 +1,13 @@
+{
+  "ExposureTime": "1/33",
+  "SubjectDistance": "0.6188118812 m",
+  "ISO": 167,
+  "FileName": "165404_549.jpg",
+  "Trigger": "Motion",
+  "CreateDate": "2024-05-12 16:54:05",
+  "CreateSecondsEpoch": "1715525645",
+  "Annotation": {
+    "Source": "Ollama:7b",
+    "Test": " The image appears to be a screenshot of a web browser displaying a web page with a title that says \"EMLI TEAM.\" The URL of the page is shown at the top, indicating that it's likely an internal network address. The date \"2024-05-12\" and time \"16:54:04\" are also displayed, suggesting that this screenshot was taken on May 12th, 2024 at 4:54 PM. The content of the web page itself is not visible in this image. "
+  }
+}

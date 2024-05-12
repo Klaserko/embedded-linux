@@ -1,0 +1,13 @@
+{
+  "ExposureTime": "1/33",
+  "SubjectDistance": "0.6506180872 m",
+  "ISO": 200,
+  "FileName": "165347_273.jpg",
+  "Trigger": "Motion",
+  "CreateDate": "2024-05-12 16:53:48",
+  "CreateSecondsEpoch": "1715525628",
+  "Annotation": {
+    "Source": "Ollama:7b",
+    "Test": " The image is a screenshot of a webpage with a large photograph of two people on what appears to be a mountain or hill. The people are dressed in athletic clothing and seem to be engaged in some form of outdoor activity, possibly hiking or running. In the foreground, there is text that reads \"EMLI-TEAM,\" and below it, an address: \"192.168.10.1:8080/2024-05-12/165347\\_273.jpg.\" The style of the image is realistic and it is likely taken from a camera or a screen displaying the webpage. "
+  }
+}

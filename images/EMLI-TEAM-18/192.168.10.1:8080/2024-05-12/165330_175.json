@@ -1,0 +1,13 @@
+{
+  "ExposureTime": "1/33",
+  "SubjectDistance": "0.5861664713 m",
+  "ISO": 176,
+  "FileName": "165330_175.jpg",
+  "Trigger": "Motion",
+  "CreateDate": "2024-05-12 16:53:31",
+  "CreateSecondsEpoch": "1715525611",
+  "Annotation": {
+    "Source": "Ollama:7b",
+    "Test": " The image is a photograph of a group of people who appear to be a team of professionals, possibly in an office or work setting. They are all dressed in business attire and seem to be engaged in conversation or working on something together. The lighting in the room is artificial, suggesting that it's an indoor space. The image has a timestamped watermark on it indicating that it was taken on May 12th, 2024 at 6:53 PM and is likely related to the company Emli-Team or the domain emli-team.com. "
+  }
+}

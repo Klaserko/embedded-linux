@@ -1,0 +1,13 @@
+{
+  "ExposureTime": "1/33",
+  "SubjectDistance": "0.6097560976 m",
+  "ISO": 200,
+  "FileName": "165257_838.jpg",
+  "Trigger": "Motion",
+  "CreateDate": "2024-05-12 16:52:58",
+  "CreateSecondsEpoch": "1715525578",
+  "Annotation": {
+    "Source": "Ollama:7b",
+    "Test": " The image appears to be a screenshot of a webpage or a network error message with a title \"EMLI - TEAM\". There is an error message stating \"400 Bad Request\" which indicates that there was an unsuccessful request due to bad syntax. The URL address in the browser's address bar suggests that the website being accessed is located at 192.168.10.1, port 8080. The date on the image is May 12, 2024. There are also some numbers and letters \"165257\\_838\" which may be related to the error or the URL structure of the website. "
+  }
+}

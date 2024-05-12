@@ -11,10 +11,8 @@ scan_and_connect_script="./scan_and_connect.sh"
 website_dir="192.168.10.1:8080"
 camera_wifi_ip="192.168.10.1"
 
-sleep_time=6
-
 # Activate the logging script
-# $logging_script $check_script &
+$logging_script $check_script &
 
 
 while true; do

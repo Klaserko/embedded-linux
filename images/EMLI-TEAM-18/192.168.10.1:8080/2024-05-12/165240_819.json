@@ -1,0 +1,13 @@
+{
+  "ExposureTime": "1/33",
+  "SubjectDistance": "0.6035003018 m",
+  "ISO": 199,
+  "FileName": "165240_819.jpg",
+  "Trigger": "Motion",
+  "CreateDate": "2024-05-12 16:52:41",
+  "CreateSecondsEpoch": "1715525561",
+  "Annotation": {
+    "Source": "Ollama:7b",
+    "Test": " The image shows a close-up of a person's face, which appears to be a Caucasian female with light skin and blonde hair. She has fair complexion and is wearing makeup that accentuates her facial features. Her eyebrows are well-groomed, and her eyes are visible but not in focus. The person is wearing what seems to be a headset or earpiece, suggesting she may be engaged in some form of communication or listening activity.\n\nThe background of the image is out of focus, which puts the emphasis on the person's face. There are no distinguishable features or objects in the background that provide additional context about the setting or occasion.\n\nOverall, the image seems to capture a moment of concentration or engagement in some form of audio communication or monitoring activity. The style of the photo is realistic and appears to be taken with a digital camera or smartphone. "
+  }
+}
