@@ -1,0 +1,16 @@
+{
+  "ExposureTime": "1/33",
+  "SubjectDistance": "0.6222775358 m",
+  "ISO": 157,
+  "FileName": "140459_670.jpg",
+  "Trigger": "Motion",
+  "CreateDate": "2024-05-12 14:05:00",
+  "CreateSecondsEpoch": "1715515500"
+}
+ "Dawnloads": [
+    {
+      "DroneID": "1",
+      "Time": "1715515803"
+    }
+  ]
+}

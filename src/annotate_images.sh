@@ -1,3 +1,5 @@
+
+
 #!/bin/bash
 
 # Define the path to the folder containing the images
@@ -8,12 +10,27 @@ find "$IMAGE_FOLDER" -type f -name "*.jpg" | while read -r img_file; do
     # Extract filename without extension
     filename=$(basename "$img_file" .jpg)
 
-    # Run ollama command to annotate the image
-    annotation=$(ollama run llava:7b "In short describe image $img_file, do not describe the file path")
-
-    # Update the JSON metadata file with the annotation
+    # JSON metadata file
     metadata_file="${IMAGE_FOLDER}/${filename}.json"
-    jq --arg annotation_text "$annotation" '.Annotation += {"Source": "Ollama:7b", "Test": $annotation_text}' "$metadata_file" > temp.json && mv temp.json "$metadata_file"
 
-    echo "Annotation completed for $img_file"
+    # Check if metadata file exists
+    if [ -f "$metadata_file" ]; then
+        # Check if "Annotation" field exists in the metadata
+        if ! jq -e '.Annotation' "$metadata_file" >/dev/null; then
+            # Run ollama command to annotate the image
+            echo "Starting annotation for $img_file"
+            
+            annotation=$(ollama run llava:7b "In short describe $img_file")
+
+            # Update the JSON metadata file with the annotation
+            jq --arg annotation_text "$annotation" '.Annotation += {"Source": "Ollama:7b", "Test": $annotation_text}' "$metadata_file" > temp.json && mv temp.json "$metadata_file"
+
+            echo "Annotation completed for $img_file"
+        else
+            echo "Annotation already exists for $img_file"
+        fi
+    else
+        echo "Metadata file not found for $img_file"
+    fi
 done
+

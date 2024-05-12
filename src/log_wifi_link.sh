@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS wifi_logs (
 EOF
 
 while true; do
-    if $check_script; then
+    if $("$check_script"); then
         # Get current epoch time in seconds
         epoch_seconds=$(date +%s)
         
