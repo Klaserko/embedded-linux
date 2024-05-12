@@ -5,12 +5,15 @@
   "FileName": "150130_051.jpg",
   "Trigger": "Motion",
   "CreateDate": "2024-05-12 15:01:31",
-  "CreateSecondsEpoch": "1715518891"
-}
- "Dawnloads": [
+  "CreateSecondsEpoch": "1715518891",
+  "Dawnloads": [
     {
       "DroneID": "1",
       "Time": "1715519011"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715519204"
     }
   ]
 }

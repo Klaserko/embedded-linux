@@ -18,7 +18,7 @@ while true; do
         $download_script "../images/$current_wifi"
 
         echo "Download finished, starting annotation"
-        $annotation_script "../images/$current_wifi"
+        $annotation_script "../images/$current_wifi/$website_dir"
 
         echo "Annotation finished, pushing to git"
         $git_script
