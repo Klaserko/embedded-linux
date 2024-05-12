@@ -5,11 +5,12 @@ download_script="./new_download_files.sh"
 annotation_script="./annotate_images.sh"
 server_website="192.168.10.1:8080"
 git_script="./git_push.sh"
+logging_script="./log_wifi_link.sh"
 
 sleep_time=6
 
-# Activate the annotation script
-$annotation_script
+# Activate the logging script
+$logging_script
 
 while true; do
     if current_wifi=$("$check_script"); then
