@@ -3,10 +3,13 @@
 check_script="./check_connection.sh"
 download_script="./new_download_files.sh"
 annotation_script="./annotate_images.sh"
+logging_script="./log_wifi_link.sh"
+git_script="./git_push.sh"
+scan_and_connect_script="./scan_and_connect.sh"
+
+
 website_dir="192.168.10.1:8080"
 camera_wifi_ip="192.168.10.1"
-git_script="./git_push.sh"
-logging_script="./log_wifi_link.sh"
 
 sleep_time=6
 
@@ -29,6 +32,11 @@ while true; do
         $git_script
 
         exit 0
+
+    else 
+        # Try to connect to wifi
+        echo "#################### Not connected to any wifi, trying to connect ####################"
+        $scan_and_connect_script
     fi
 
     

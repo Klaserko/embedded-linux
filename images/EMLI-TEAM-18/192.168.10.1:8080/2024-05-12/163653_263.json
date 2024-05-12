@@ -1,0 +1,13 @@
+{
+  "ExposureTime": "1/33",
+  "SubjectDistance": "0.6337135615 m",
+  "ISO": 200,
+  "FileName": "163653_263.jpg",
+  "Trigger": "Manual",
+  "CreateDate": "2024-05-12 16:36:54",
+  "CreateSecondsEpoch": "1715524614",
+  "Annotation": {
+    "Source": "Ollama:7b",
+    "Test": " The image appears to be a screenshot of a computer displaying a web page with the title \"TEAM\" and the URL \"http://192.168.10.1:8080/2024-05-12/163653\\_263.jpg\". The web page features a photo of an individual wearing a black shirt and glasses, standing in front of what looks like a microphone or speaker. The background behind the person is blurred but seems to be indoors with ambient lighting that casts shadows on the subject's face. There are no visible texts other than the title \"TEAM\" at the top of the web page. "
+  }
+}
