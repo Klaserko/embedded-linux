@@ -19,6 +19,7 @@ while true; do
         $annotation_script "../images/$current_wifi/$server_website"
 
         # push to git
+        $git_script
 
     fi
 
