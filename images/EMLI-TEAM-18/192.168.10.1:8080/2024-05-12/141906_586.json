@@ -7,3 +7,10 @@
   "CreateDate": "2024-05-12 14:19:07",
   "CreateSecondsEpoch": "1715516347"
 }
+ "Dawnloads": [
+    {
+      "DroneID": "1",
+      "Time": "1715516544"
+    }
+  ]
+}
