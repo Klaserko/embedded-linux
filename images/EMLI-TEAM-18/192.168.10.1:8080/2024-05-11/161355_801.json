@@ -32,60 +32,102 @@
       "Time": "1715511433"
     }
   ],
-  "Annotation": {
-    "Source": "Ollama:7b",
-    "Test": " The image is a screenshot of a web page with the following visible elements:\n\n* A navigation bar at the top with a dark background and light text, displaying \"EMLI-TEAM\" on the left and some unreadable icons on the right.\n* Below the navigation bar is a main content area with a white background.\n* Centered in the content area is an image of a person wearing sunglasses, standing outdoors during what appears to be daylight, but without more context it's difficult to provide further details about the person or their surroundings.\n* The image file path, \"2024-05-11/161355_801.jpg\", is visible in the web page address bar at the top of the browser window, indicating that the image is likely hosted on a server with an IP address of 192.168.10.1 and is accessible through port 8080. "
-  }
-}
-e": "1715514777"
-    }
-  ]
-}
-
+  "Dawnloads": [
+    {
+      "DroneID": "1",
+      "Time": "1715514075"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514237"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514239"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514242"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514246"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514251"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514749"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514750"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514752"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514755"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514759"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514764"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514770"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514777"
+    },
+    {
       "DroneID": "1",
       "Time": "1715514785"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715514945"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715515417"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715515780"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715516492"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715516616"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715516995"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715517014"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715517032"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715517048"
     }
   ]
 }

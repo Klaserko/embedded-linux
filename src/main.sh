@@ -12,23 +12,23 @@ sleep_time=6
 # Activate the logging script
 $logging_script $check_script &
 
-download_ready=false
+downloaded=false
 
 while true; do
     if current_wifi=$("$check_script"); then
         $download_script "../images/$current_wifi"
-        download_ready=true
-
-        # push to git
-        $git_script
+        downloaded=true
     fi
 
-    if [ "$download_ready" = true && "$check_script" = false]; then
+    if [ "$downloaded" = true ]; then
         # Annotate the images
         $annotation_script "../images/$current_wifi/$server_website"
-        download_ready=false
+
+        echo "Annotation finished, pushing to git"
+        $git_script
+
+        exit 0
     fi
 
-    echo ----- One loop over, starting in $sleep_time seconds -----
-    sleep $sleep_time
+    
 done

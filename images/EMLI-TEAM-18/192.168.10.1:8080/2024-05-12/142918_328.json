@@ -5,18 +5,19 @@
   "FileName": "142918_328.jpg",
   "Trigger": "Manual",
   "CreateDate": "2024-05-12 14:29:19",
-  "CreateSecondsEpoch": "1715516959"
-}
- "Dawnloads": [
+  "CreateSecondsEpoch": "1715516959",
+  "Dawnloads": [
     {
       "DroneID": "1",
       "Time": "1715516999"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715517016"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715517034"
     }
   ]
 }

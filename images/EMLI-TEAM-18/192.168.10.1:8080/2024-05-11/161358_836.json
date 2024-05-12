@@ -32,61 +32,110 @@
       "Time": "1715511434"
     }
   ],
-  "Annotation": {
-    "Source": "Ollama:7b",
-    "Test": " The image appears to be a screenshot of a webpage or an application interface. It shows what seems to be a chat application window with the following visible elements:\n\n* A user interface element in the top right corner labeled \"EMLI TEAM.\"\n* The title bar of the main content area which includes a URL address and a port number (192.168.10.1:8080) and the date \"2024-05-11\".\n* A section with a timestamp indicating that it was created at 16:13:58 on May 11th, 2024.\n* An image or icon in the center right area of the window.\n* Text or icons in the bottom left and bottom right corners, which are partially obscured by the browser's window controls (e.g., minimize, maximize, close buttons).\n\nThe style of the interface suggests that it is a graphical user interface with a modern design, likely using HTML, CSS, and JavaScript technologies to create the interactive experience. "
-  }
-}
- "DroneID": "1",
+  "Dawnloads": [
+    {
+      "DroneID": "1",
+      "Time": "1715514076"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514787"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514788"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514790"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514793"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514797"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514802"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514808"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514815"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514823"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514832"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514842"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514852"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514862"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514872"
+    },
+    {
+      "DroneID": "1",
       "Time": "1715514882"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715514892"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715514946"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715515418"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715515781"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715516493"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715516618"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715516997"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715517015"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715517033"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715517050"
     }
   ]
 }

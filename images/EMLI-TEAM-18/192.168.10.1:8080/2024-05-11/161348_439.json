@@ -36,79 +36,102 @@
       "Time": "1715511458"
     }
   ],
-  "Annotation": {
-    "Source": "Ollama:7b",
-    "Test": " The image is a screenshot of a web interface displaying a table with various pieces of information. At the top of the table, there is a row that includes a column with the title \"Date\" and another column with the title \"Time\". Below this header row, there are multiple rows with data in each cell. The data includes dates and times as well as some other numerical values. The image also contains some text in the upper right corner, which appears to be part of an application or system interface, but it is not clear what the text says due to its small size and resolution. "
-  }
-}
-    "DroneID": "1",
+  "Dawnloads": [
+    {
+      "DroneID": "1",
+      "Time": "1715514072"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514117"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514118"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514120"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514123"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514127"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514132"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514138"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514145"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514153"
+    },
+    {
+      "DroneID": "1",
       "Time": "1715514162"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715514172"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715514213"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715514394"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715514745"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715514941"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715515414"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715515777"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715516489"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715516612"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715516990"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715517010"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715517029"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715517045"
     }
   ]
 }

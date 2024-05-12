@@ -36,72 +36,110 @@
       "Time": "1715511459"
     }
   ],
-  "Annotation": {
-    "Source": "Ollama:7b",
-    "Test": " The image appears to be a screenshot of a web browser displaying an HTML page with a title that reads \"EMLI TEAM 18\". The page contains a header with the text \"EMLI\" and a navigation bar with links to different sections of the website.\n\nBelow the navigation bar, there is a main content area with a large image and some text. The image shows a person standing outdoors in a natural setting. There is also a smaller thumbnail image on the left side of the page, which seems to be an older version of the same page.\n\nThe text on the page includes headings, paragraphs, and bullet points, but it's not entirely clear what the content is about due to the resolution of the image. The overall style of the website suggests a clean and modern design with a focus on visual content. "
-  }
-}
+  "Dawnloads": [
+    {
+      "DroneID": "1",
+      "Time": "1715514073"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514174"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514176"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514179"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514183"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514188"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514194"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514201"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514214"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514215"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514217"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514220"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715514224"
+    },
+    {
+      "DroneID": "1",
       "Time": "1715514229"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715514235"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715514395"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715514748"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715514943"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715515416"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715515778"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715516490"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715516614"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715516992"
-    }
-  ]
-}
-
+    },
+    {
       "DroneID": "1",
       "Time": "1715517012"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715517031"
+    },
+    {
+      "DroneID": "1",
+      "Time": "1715517047"
     }
   ]
 }
