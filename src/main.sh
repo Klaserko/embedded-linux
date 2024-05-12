@@ -3,6 +3,7 @@
 check_script="./check_connection.sh"
 download_script="./new_download_files.sh"
 annotation_script="./annotate_images.sh"
+website_dir="192.168.10.1:8080"
 git_script="./git_push.sh"
 logging_script="./log_wifi_link.sh"
 
