@@ -1,0 +1,13 @@
+{
+  "ExposureTime": "1/33",
+  "SubjectDistance": "0.6574621959 m",
+  "ISO": 173,
+  "FileName": "154509_435.jpg",
+  "Trigger": "Motion",
+  "CreateDate": "2024-05-12 15:45:10",
+  "CreateSecondsEpoch": "1715521510",
+  "Annotation": {
+    "Source": "Ollama:7b",
+    "Test": " The image you've provided appears to be a screenshot of a file directory structure, likely from a server or computer system. It shows a set of directories and files organized in a hierarchical manner.\n\nThe top level directory is called \"EMLI-TEAM-18,\" and within that directory, there are several subdirectories and files. One of the files at this level is named \"154509_435.jpg.\" This file seems to be a JPEG image, as indicated by the \".jpg\" file extension.\n\nIn addition to the image file, there are other directories and files with names such as \"2024-05-12,\" \"192.168.10.1:8080,\" and \"154438_772.\" These names suggest that they might be related to a specific date, IP address, or other metadata.\n\nThe directory structure is not fully visible in the provided image, but it seems to be a standard format for organizing files on a computer system. The exact purpose of these files and directories would depend on the context in which they were created or used. "
+  }
+}

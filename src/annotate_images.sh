@@ -20,9 +20,8 @@ find "$IMAGE_FOLDER" -type f -name "*.jpg" | while read -r img_file; do
             # Run ollama command to annotate the image
             echo "Starting annotation for $img_file"
 
-            # annotation=$(ollama run llava:7b "In short describe this image: $img_file, Do not describe the path, only the image.")
+            annotation=$(ollama run llava:7b "In short describe this image: $img_file, Do not describe the path, only the image.")
 
-            annotation="This is a test annotation for image: $img_file"
             # Update the JSON metadata file with the annotation
             jq --arg annotation_text "$annotation" '.Annotation += {"Source": "Ollama:7b", "Test": $annotation_text}' "$metadata_file" > temp.json && mv temp.json "$metadata_file"
 

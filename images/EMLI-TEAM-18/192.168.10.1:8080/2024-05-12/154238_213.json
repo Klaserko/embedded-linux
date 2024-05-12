@@ -6,8 +6,10 @@
   "Trigger": "Manual",
   "CreateDate": "2024-05-12 15:42:39",
   "CreateSecondsEpoch": "1715521359",
-  "Annotation": {
-    "Source": "Ollama:7b",
-    "Test": "This is a test annotation for image: ../images/EMLI-TEAM-18/192.168.10.1:8080/2024-05-12/154238_213.jpg"
-  }
+  "Dawnloads": [
+    {
+      "DroneID": "1",
+      "Time": "1715521383"
+    }
+  ]
 }
