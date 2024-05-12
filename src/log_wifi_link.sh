@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS wifi_logs (
 EOF
 
 while true; do
-    if current_wifi=$("$check_script"); then
+    if $check_script; then
         # Get current epoch time in seconds
         epoch_seconds=$(date +%s)
         
@@ -32,6 +32,6 @@ while true; do
         
         sqlite3 $DB_FILE "INSERT INTO wifi_logs (epoch_seconds, link_quality, signal_level) VALUES ('$epoch_seconds', '$link_quality', '$signal_level');"
 
-        sleep 2
     fi
+    sleep 2
 done

@@ -10,7 +10,7 @@ logging_script="./log_wifi_link.sh"
 sleep_time=6
 
 # Activate the logging script
-$logging_script
+$logging_script $check_script &
 
 while true; do
     if current_wifi=$("$check_script"); then
