@@ -1,14 +1,15 @@
 #!/bin/bash
 
 # Define the path to the folder containing the images
-IMAGE_FOLDER=$1 #"/home/frederik/Documents/SDU/EMLI" /home/richard/Documents/EMLI/embedded-linux/images
+IMAGE_FOLDER="$1"
 
-# Iterate over each image file in the folder
-for img_file in "$IMAGE_FOLDER"/*.jpg; do
+# Find all JPEG files recursively in the IMAGE_FOLDER directory
+find "$IMAGE_FOLDER" -type f -name "*.jpg" | while read -r img_file; do
+    # Extract filename without extension
     filename=$(basename "$img_file" .jpg)
-    
-    echo "Annotating $img_file"
-    annotation=$(ollama run llava:7b "In short describe the image, $img_file, do not describe file path")
+
+    # Run ollama command to annotate the image
+    annotation=$(ollama run llava:7b "In short describe image $img_file, do not describe the file path")
 
     # Update the JSON metadata file with the annotation
     metadata_file="${IMAGE_FOLDER}/${filename}.json"
